@@ -51,6 +51,12 @@ ul {
 main {
   width: 100%;
   padding: 1.5em 2.5em 1.5em;
+  /* title_principal */
+  /* sub_title */
+  /* сhercher */
+  /* .main_filtres */
+  /* .chercher__info */
+  /* .content_principal */
 }
 main .title_principal {
   width: 100%;
@@ -67,6 +73,11 @@ main .сhercher {
   position: relative;
   margin-left: 1.5%;
   margin-bottom: 1.5%;
+  /* i */
+  /* input[type="text"] */
+  /* input[type="text"]::placeholder */
+  /* input[type="text"]:focus::placeholder */
+  /* input[type="submit"] */
 }
 main .сhercher i {
   position: absolute;
@@ -109,6 +120,8 @@ main .main_filtres {
   width: 100%;
   display: flex;
   margin-bottom: 1%;
+  /* .filtres_txt */
+  /* .filtres_item */
 }
 main .main_filtres .filtres_txt {
   font-size: 18px;
@@ -123,6 +136,7 @@ main .main_filtres .filtres_item {
   border: 1px solid rgba(110, 110, 100, 0.3);
   border-radius: 15px;
   border-left: none;
+  /* i */
 }
 main .main_filtres .filtres_item i {
   width: 25px;
@@ -173,13 +187,18 @@ main .chercher__info p {
   font-weight: bold;
 }
 main .content_principal {
+  display: flex;
   width: 100%;
+  justify-content: space-between;
+  /* .principal_hebergement */
+  /* .principal_Populaires */
 }
 main .content_principal .principal_hebergement {
   width: 72%;
   background-color: #f2f2f2;
   padding: 1.5%;
   border-radius: 25px;
+  /* .info_wrap */
 }
 main .content_principal .principal_hebergement h2 {
   width: 25%;
@@ -192,6 +211,7 @@ main .content_principal .principal_hebergement .info_wrap {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0 2% 2% 2.9%;
+  /* .hebergement_info */
 }
 main .content_principal .principal_hebergement .info_wrap .hebergement_info {
   width: 24%;
@@ -207,3 +227,44 @@ main .content_principal .principal_hebergement .info_wrap .hebergement_info img 
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
 }
+main .content_principal .principal_Populaires {
+  width: 25%;
+  background-color: #f2f2f2;
+  padding: 1.5%;
+  border-radius: 25px;
+  /* .wrap_titlePopulaire */
+  /* populaires_item */
+}
+main .content_principal .principal_Populaires .wrap_titlePopulaire {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+main .content_principal .principal_Populaires .wrap_titlePopulaire .populaires_title {
+  margin-right: 25%;
+}
+main .content_principal .principal_Populaires .wrap_titlePopulaire i {
+  padding-top: 11px;
+}
+main .content_principal .principal_Populaires .populaires_item {
+  width: 100%;
+  display: flex;
+  margin-bottom: 2%;
+  /* item_info */
+}
+main .content_principal .principal_Populaires .populaires_item img {
+  width: 36%;
+  height: 121px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border: 3px solid #fff;
+}
+main .content_principal .principal_Populaires .populaires_item .item_info {
+  width: 100%;
+  background-color: #fff;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 0.5%;
+}
+
+/* main */

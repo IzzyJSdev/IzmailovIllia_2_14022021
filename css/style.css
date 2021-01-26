@@ -4,7 +4,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
-  font-size: calc(0.45em + 0.99vh);
+  font-size: calc(0.65em + 0.7vh);
 }
 
 a {
@@ -19,12 +19,12 @@ ul {
 
 .header {
   width: 100%;
-  padding: 2em 2.8em 0.5em 2.8em;
+  padding: 1.5%;
   display: flex;
 }
 .header .logo {
   width: 7%;
-  margin-right: 92em;
+  margin-right: 54%;
 }
 .header nav {
   width: 40%;
@@ -36,7 +36,7 @@ ul {
 }
 .header nav .menu .menu_item {
   padding-top: 10px;
-  margin-right: 4em;
+  margin-right: 10%;
 }
 .header nav .menu .menu_item a {
   color: #0065fc;
@@ -52,7 +52,7 @@ ul {
 
 main {
   width: 100%;
-  padding: 3em;
+  padding: 2%;
   /* .content_principal */
   /* activites */
 }
@@ -74,13 +74,13 @@ main .main_title .sub_title {
   color: #6e6e6e;
   font-weight: bold;
   font-size: 1.65em;
-  margin-bottom: 1em;
+  margin-bottom: 1.5%;
 }
 main .main_title .сhercher {
   width: 30%;
   position: relative;
-  margin-left: 3em;
-  margin-bottom: 3em;
+  margin-left: 1.8%;
+  margin-bottom: 2.5%;
   /* i */
   /* input[type="text"] */
   /* input[type="text"]::placeholder */
@@ -89,8 +89,8 @@ main .main_title .сhercher {
 }
 main .main_title .сhercher i {
   position: absolute;
-  width: 2.7em;
-  height: 2.7em;
+  min-width: 35px;
+  min-height: 35px;
   background-color: rgba(199, 197, 197, 0.3);
   padding: 10px 10px 10px 15px;
   border-top-left-radius: 50%;
@@ -179,13 +179,13 @@ main .main_title .main_filtres .filtres_item .fa-dog + p {
 main .main_title .chercher__info {
   display: flex;
   width: 100%;
-  margin-bottom: 2.5em;
+  margin-bottom: 2%;
 }
 main .main_title .chercher__info i {
   width: 20px;
   height: 20px;
   font-size: 1em;
-  margin-right: 2em;
+  margin-right: 1.2%;
   border: 1px solid rgba(110, 110, 100, 0.3);
   border-radius: 50%;
   text-align: center;
@@ -202,21 +202,21 @@ main .content_principal {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  margin-bottom: 2em;
+  margin-bottom: 2.5%;
   /* .principal_hebergement */
   /* .principal_Populaires */
 }
 main .content_principal .principal_hebergement {
   width: 72%;
   background-color: #f2f2f2;
-  padding: 2em;
+  padding: 1%;
   border-radius: 25px;
   /* .info_wrap */
 }
 main .content_principal .principal_hebergement h2 {
   width: 25%;
-  margin-left: 1.5em;
-  margin-bottom: 1.5em;
+  margin-left: 1.5%;
+  margin-bottom: 1.7%;
   font-size: 1.7em;
 }
 main .content_principal .principal_hebergement .info_wrap {
@@ -224,12 +224,12 @@ main .content_principal .principal_hebergement .info_wrap {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 0 1.5em 1.5em 1.5em;
+  padding: 1.5%;
   /* .hebergement_info */
 }
 main .content_principal .principal_hebergement .info_wrap .hebergement_info {
   width: 24%;
-  margin-right: 2em;
+  margin-right: 2%;
   border: 3px solid #fff;
   margin-bottom: 2%;
   border-radius: 25px;
@@ -244,7 +244,7 @@ main .content_principal .principal_hebergement .info_wrap .hebergement_info img 
 }
 main .content_principal .principal_hebergement .info_wrap .hebergement_info .hebergement_wrapTxt {
   width: 100%;
-  padding: 1em;
+  padding: 1.5%;
 }
 main .content_principal .principal_hebergement .info_wrap .hebergement_info .hebergement_wrapTxt h3 {
   font-size: 1.7em;
@@ -275,7 +275,7 @@ main .content_principal .principal_hebergement .info_wrap .hebergement_info:acti
 main .content_principal .principal_Populaires {
   width: 25%;
   background-color: #f2f2f2;
-  padding: 2em;
+  padding: 1.5%;
   border-radius: 25px;
   /* .wrap_titlePopulaire */
   /* .wrap_populaireItems */
@@ -284,10 +284,10 @@ main .content_principal .principal_Populaires .wrap_titlePopulaire {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 3em;
+  margin-bottom: 9%;
 }
 main .content_principal .principal_Populaires .wrap_titlePopulaire .populaires_title {
-  margin-right: 10em;
+  margin-right: 10%;
 }
 main .content_principal .principal_Populaires .wrap_titlePopulaire h2 {
   font-size: 1.7em;
@@ -302,7 +302,7 @@ main .content_principal .principal_Populaires .wrap_populaireItems {
 main .content_principal .principal_Populaires .wrap_populaireItems .populaires_item {
   width: 100%;
   display: flex;
-  margin-bottom: 5em;
+  margin-bottom: 10%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   border-radius: 25px;
   /* item_info */
@@ -319,15 +319,15 @@ main .content_principal .principal_Populaires .wrap_populaireItems .populaires_i
   background-color: #fff;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
-  padding: 1.3em;
+  padding: 1.5%;
 }
 main .content_principal .principal_Populaires .wrap_populaireItems .populaires_item .item_info h3 {
   font-size: 1.8em;
-  margin-bottom: 0.8em;
+  margin-bottom: 1.2%;
 }
 main .content_principal .principal_Populaires .wrap_populaireItems .populaires_item .item_info p {
   font-size: 1.6em;
-  margin-bottom: 1em;
+  margin-bottom: 5%;
 }
 main .content_principal .principal_Populaires .wrap_populaireItems .populaires_item .item_info p a span {
   font-size: 1.1em;
@@ -357,13 +357,13 @@ main .activites {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 1.5em;
+  padding: 1.5%;
   /* activites_item */
   /* wrap_activites */
 }
 main .activites .activites_item {
   width: 50%;
-  margin-right: 3.5em;
+  margin-right: 3.5%;
   border-radius: 25px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
@@ -375,7 +375,7 @@ main .activites .activites_item img {
 }
 main .activites .activites_item h3 {
   font-size: 1.8em;
-  padding: 1em;
+  padding: 2.5%;
 }
 main .activites .activites_item:active {
   box-shadow: none;
@@ -386,7 +386,7 @@ main .activites .wrap_activites {
   display: flex;
   width: 45%;
   flex-wrap: wrap;
-  margin-right: 3.5em;
+  margin-right: 3.5%;
 }
 main .activites .wrap_activites .activites_littleItem {
   width: 100%;
@@ -400,7 +400,7 @@ main .activites .wrap_activites .activites_littleItem img {
 }
 main .activites .wrap_activites .activites_littleItem h3 {
   font-size: 1.8em;
-  padding: 1em;
+  padding: 2.5%;
 }
 main .activites .wrap_activites .activites_littleItem:active {
   box-shadow: none;
@@ -408,7 +408,7 @@ main .activites .wrap_activites .activites_littleItem:active {
   top: 2px;
 }
 main .activites .wrap_activites .activites_littleItem:first-child {
-  margin-bottom: 3.5em;
+  margin-bottom: 9%;
 }
 main .activites .wrap_activites .activites_littleItem:first-child img {
   height: 200px;
@@ -420,7 +420,7 @@ main .activites .wrap_activites:last-child {
   margin-right: 0;
 }
 main .activites .wrap_activites:last-child .activites_littleItem:first-child {
-  margin-bottom: 3.5em;
+  margin-bottom: 9%;
 }
 main .activites .wrap_activites:last-child .activites_littleItem:first-child img {
   height: 200px;
@@ -434,14 +434,15 @@ footer {
   width: 100%;
   background-color: #f2f2f2;
   display: flex;
-  padding: 1.5em;
+  padding: 1.5%;
 }
 footer .aPropos,
 footer .nosHebergements,
 footer .assistance {
   display: flex;
   flex-direction: column;
-  margin: 1em 38em 1.5em 3em;
+  margin-left: 3%;
+  margin-right: 15%;
 }
 footer .aPropos h3,
 footer .nosHebergements h3,

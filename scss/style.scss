@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
-  font-size: calc(0.45em + 0.99vh);
+  font-size: calc(0.65em + 0.7vh);
 }
 a {
   text-decoration: none;
@@ -19,12 +19,12 @@ $colorblue: #0065fc;
 
 .header {
   width: 100%;
-  padding: 2em 2.8em 0.5em 2.8em;
+  padding: 1.5%;
   display: flex;
 
   .logo {
     width: 7%;
-    margin-right: 92em;
+    margin-right: 54%;
   }
   nav {
     width: 40%;
@@ -35,7 +35,7 @@ $colorblue: #0065fc;
       align-items: center;
       .menu_item {
         padding-top: 10px;
-        margin-right: 4em;
+        margin-right: 10%;
 
         a {
           color: $colorblue;
@@ -55,7 +55,7 @@ $colorblue: #0065fc;
 
 main {
   width: 100%;
-  padding: 3em;
+  padding: 2%;
   .main_title {
     width: 100%;
 
@@ -69,17 +69,17 @@ main {
       color: rgb(110, 110, 110);
       font-weight: bold;
       font-size: 1.65em;
-      margin-bottom: 1em;
+      margin-bottom: 1.5%;
     } /* sub_title */
     .сhercher {
       width: 30%;
       position: relative;
-      margin-left: 3em;
-      margin-bottom: 3em;
+      margin-left: 1.8%;
+      margin-bottom: 2.5%;
       i {
         position: absolute;
-        width: 2.7em;
-        height: 2.7em;
+        min-width: 35px;
+        min-height: 35px;
         background-color: rgba(199, 197, 197, 0.3);
         padding: 10px 10px 10px 15px;
         border-top-left-radius: 50%;
@@ -170,12 +170,12 @@ main {
     .chercher__info {
       display: flex;
       width: 100%;
-      margin-bottom: 2.5em;
+      margin-bottom: 2%;
       i {
         width: 20px;
         height: 20px;
         font-size: 1em;
-        margin-right: 2em;
+        margin-right: 1.2%;
         border: 1px solid rgba(110, 110, 100, 0.3);
         border-radius: 50%;
         text-align: center;
@@ -194,16 +194,16 @@ main {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin-bottom: 2em;
+    margin-bottom: 2.5%;
     .principal_hebergement {
       width: 72%;
       background-color: #f2f2f2;
-      padding: 2em;
+      padding: 1%;
       border-radius: 25px;
       h2 {
         width: 25%;
-        margin-left: 1.5em;
-        margin-bottom: 1.5em;
+        margin-left: 1.5%;
+        margin-bottom: 1.7%;
         font-size: 1.7em;
       }
       .info_wrap {
@@ -211,10 +211,10 @@ main {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        padding: 0 1.5em 1.5em 1.5em;
+        padding: 1.5%;
         .hebergement_info {
           width: 24%;
-          margin-right: 2em;
+          margin-right: 2%;
           border: 3px solid #fff;
           margin-bottom: 2%;
           border-radius: 25px;
@@ -229,7 +229,7 @@ main {
           }
           .hebergement_wrapTxt {
             width: 100%;
-            padding: 1em;
+            padding: 1.5%;
 
             h3 {
               font-size: 1.7em;
@@ -266,15 +266,15 @@ main {
     .principal_Populaires {
       width: 25%;
       background-color: #f2f2f2;
-      padding: 2em;
+      padding: 1.5%;
       border-radius: 25px;
       .wrap_titlePopulaire {
         width: 100%;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 3em;
+        margin-bottom: 9%;
         .populaires_title {
-          margin-right: 10em;
+          margin-right: 10%;
         }
         h2 {
           font-size: 1.7em;
@@ -288,7 +288,7 @@ main {
         .populaires_item {
           width: 100%;
           display: flex;
-          margin-bottom: 5em;
+          margin-bottom: 10%;
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           border-radius: 25px;
 
@@ -305,14 +305,14 @@ main {
             background-color: #fff;
             border-top-right-radius: 25px;
             border-bottom-right-radius: 25px;
-            padding: 1.3em;
+            padding: 1.5%;
             h3 {
               font-size: 1.8em;
-              margin-bottom: 0.8em;
+              margin-bottom: 1.2%;
             }
             p {
               font-size: 1.6em;
-              margin-bottom: 1em;
+              margin-bottom: 5%;
               a {
                 span {
                   font-size: 1.1em;
@@ -351,10 +351,10 @@ main {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 1.5em;
+    padding: 1.5%;
     .activites_item {
       width: 50%;
-      margin-right: 3.5em;
+      margin-right: 3.5%;
       border-radius: 25px;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 
@@ -367,7 +367,7 @@ main {
 
       h3 {
         font-size: 1.8em;
-        padding: 1em;
+        padding: 2.5%;
       }
     } /* activites_item */
     .activites_item:active {
@@ -379,7 +379,7 @@ main {
       display: flex;
       width: 45%;
       flex-wrap: wrap;
-      margin-right: 3.5em;
+      margin-right: 3.5%;
       .activites_littleItem {
         width: 100%;
         border-radius: 25px;
@@ -393,7 +393,7 @@ main {
 
         h3 {
           font-size: 1.8em;
-          padding: 1em;
+          padding: 2.5%;
         }
       }
       .activites_littleItem:active {
@@ -402,7 +402,7 @@ main {
         top: 2px;
       }
       .activites_littleItem:first-child {
-        margin-bottom: 3.5em;
+        margin-bottom: 9%;
 
         img {
           height: 200px;
@@ -417,7 +417,7 @@ main {
     .wrap_activites:last-child {
       margin-right: 0;
       .activites_littleItem:first-child {
-        margin-bottom: 3.5em;
+        margin-bottom: 9%;
 
         img {
           height: 200px;
@@ -435,13 +435,14 @@ footer {
   width: 100%;
   background-color: #f2f2f2;
   display: flex;
-  padding: 1.5em;
+  padding: 1.5%;
   .aPropos,
   .nosHebergements,
   .assistance {
     display: flex;
     flex-direction: column;
-    margin: 1em 38em 1.5em 3em;
+    margin-left: 3%;
+    margin-right: 15%;
     h3 {
       font-size: 1.5em;
       padding-bottom: 0.8em;

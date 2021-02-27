@@ -573,12 +573,9 @@ ul {
 }
 .main > .activites {
   width: 100%;
-  padding: 1.5%;
-  /* activites */
+  
 }
-.main > .activites .activites_title {
-  padding-left: 1.5%;
-}
+
 .activites .activites_title .activites_title__item {
   font-size: 1.4rem;
   margin-bottom: 1.5%;
@@ -590,7 +587,7 @@ ul {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 1.5%;
+  
   /* activites_item */
 }
 .activites > .activites_inner .activites_item {
@@ -741,8 +738,8 @@ ul {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  margin-left: 3%;
-  margin-right: 15%;
+  
+  margin-right: 20%;
 }
 .footer .aPropos .aPropos_title,
 .footer .nosHebergements .nosHebergements_title,

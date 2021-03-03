@@ -904,9 +904,26 @@ ul {
     margin-bottom: 2%;
   }
 
+  .main .activites .activites_inner .wrapper_items:last-of-type {
+    flex-direction: row-reverse;
+  }
+
   .main .activites .activites_inner .wrapper_items .wrap_activites {
     width: 50%;
   }
+
+  .main
+    .activites
+    .activites_inner
+    .wrapper_items:last-of-type
+    .wrap_activites {
+    margin-right: 3.5%;
+  }
+
+  .activites > .activites_inner .wrapper_items:last-of-type .activites_item {
+    margin-right: 0;
+  }
+
   .main
     .activites
     .activites_inner

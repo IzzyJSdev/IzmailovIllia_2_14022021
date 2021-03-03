@@ -197,7 +197,11 @@ ul {
 .сhercher .chercher_txt[type="text"]:focus::placeholder {
   color: transparent;
 }
-.сhercher .chercher_btn[type="submit"] {
+
+.сhercher > .btn_inner > .wrap_icons {
+  display: none;
+}
+.сhercher .btn_inner .chercher_btn[type="submit"] {
   background-color: #0065fc;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -238,9 +242,10 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px solid rgba(110, 110, 100, 0.3);
+
   border-radius: 15px;
   border-left: none;
+  /* width: 23%; */
 }
 .filtres_item__inner > .filtres_item:nth-child(2) .wrap_filtres_icon {
   padding: 10px 15px;
@@ -258,7 +263,9 @@ ul {
   align-items: center;
   background: #77b0f1;
   border-radius: 50%;
-  padding: 10px;
+  height: 49px;
+  width: 49px;
+  margin-right: -18px;
 }
 .filtres_item > .wrap_filtres_icon i {
   color: #0065fc;
@@ -275,11 +282,13 @@ ul {
 }
 .filtres_item .filtres_txt {
   font-size: 1.1rem;
-  padding: 5px 20px;
+  padding: 12px 33px 12px 22px;
   font-weight: bold;
   -ms-flex-item-align: center;
   align-self: center;
-  border-radius: 50%;
+  border: 2px solid rgba(110, 110, 100, 0.3);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
   border-left: none;
 }
 
@@ -355,8 +364,7 @@ ul {
 /*card hotels*/
 
 .content_principal > .principal_hebergement > .info_wrap .hebergement_info {
-  width: 25%;
-  margin-right: 2%;
+  width: 30%;
   border: 3px solid #fff;
   margin-bottom: 4%;
   border-radius: 25px;
@@ -573,7 +581,6 @@ ul {
 }
 .main > .activites {
   width: 100%;
-  
 }
 
 .activites .activites_title .activites_title__item {
@@ -587,8 +594,6 @@ ul {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  
-  /* activites_item */
 }
 .activites > .activites_inner .activites_item {
   width: 60%;
@@ -726,7 +731,7 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 1.5%;
+  padding: 1% 2%;
 }
 .footer .aPropos,
 .footer .nosHebergements,
@@ -738,7 +743,7 @@ ul {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  
+
   margin-right: 20%;
 }
 .footer .aPropos .aPropos_title,
@@ -962,7 +967,10 @@ ul {
     position: absolute;
     right: 3%;
   }
-
+  .main .main_title .title_principal {
+    text-align: center;
+    font-size: 1.7rem;
+  }
   .main .content_principal .principal_populaires {
     width: 100%;
     margin-bottom: 1.5%;
@@ -1222,5 +1230,28 @@ ul {
     font-size: 1.2rem;
     text-align: center;
     margin-bottom: 7%;
+  }
+  .сhercher .wrap_icon {
+    padding: 6px;
+  }
+  .main .main_title .сhercher {
+    width: 100%;
+  }
+  .сhercher .chercher_txt[type="text"] {
+    padding: 0 20px 0;
+  }
+  .сhercher > .btn_inner > .wrap_icons {
+    display: initial;
+  }
+  .сhercher > .btn_inner > .wrap_icons > .btn_icon {
+    background-color: #0065fc;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: -15px;
+    color:#fff;
+  }
+
+  .сhercher .btn_inner .chercher_btn[type="submit"] {
+    display: none;
   }
 }
